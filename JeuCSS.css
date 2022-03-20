@@ -1,0 +1,64 @@
+body /* background de la page */
+{
+	background: linear-gradient(45deg, black 10%, darkgreen 100%);
+}
+.logo
+{
+	height: 120px;
+	width:200px;
+}
+.backgroundtitle
+{
+	text-align: center;
+	background: #F0F8FF;
+	width: auto;
+}
+
+.case /* déroulement de l'image (gauche vers la droite) */
+{
+	text-align: center;
+	border: 3px solid #ccc;
+	float: left;
+	width: 400px;
+	margin-left: 12%; /* espace horizontale entre chaque vitrine*/
+	margin-bottom: 5%; /* espace verticale entre chaque vitrine*/
+	background-color: green;
+
+}
+
+.img/* vitrine de chaque jeu */
+{
+	height: 255px;
+	width: 400px;
+}
+.gamename /* nom de jeu de chaque case */
+{
+	text-align: center;
+	border: 3px solid #ccc;
+	padding: 10px;
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+.card
+{
+	background-color: #FFEBCD;
+	padding: 20px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.rightcolumn
+{
+	text-align: center;
+	float: left;
+	width: 25%;
+}
+.leftcolumn
+{
+	float: left;
+	width: 75%;
+}
+.fullcolumn
+{
+	float: left;
+	width: 100%;
+}
